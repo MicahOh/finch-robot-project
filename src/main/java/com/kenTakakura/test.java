@@ -11,11 +11,11 @@ public class test {
         ado.setDisplay(arr);
         ado.setMove("F", 50, 30);
 
-        int[] aa = {0, 0, 0, 0, 0, 
-                    0, 1, 0, 0, 0, 
+        int[] aa = {0, 1, 0, 0, 0, 
                     1, 1, 1, 0, 1, 
                     0, 1, 0, 1, 0, 
-                    0, 1, 1, 0, 0};
+                    0, 1, 1, 0, 0, 
+                    0, 1, 0, 0, 0};
         ado.setDisplay(aa);
         ado.pause(2.0);
        
