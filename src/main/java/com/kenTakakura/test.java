@@ -9,6 +9,7 @@ public class test {
         int[] arr = {1, 0, 1, 1, 1, 1, 0, 1,0,0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1};
         ado.setTurn("L", 720, 100);
         ado.setDisplay(arr);
+        
         ado.setMove("F", 50, 30);
 
         int[] aa = {0, 1, 0, 0, 0, 
