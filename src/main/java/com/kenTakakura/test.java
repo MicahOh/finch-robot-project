@@ -10,6 +10,7 @@ public class test {
         ado.setTurn("L", 720, 100);
         ado.setDisplay(arr);
         ado.pause(10.0);
+        ado.setMove("F",10, 100);
        
         ado.stopAll();
         ado.disconnect();
