@@ -6,10 +6,10 @@ public class test {
     public static void main(String[] args) {
         Finch ado = new Finch();
 
-        myFinch.setTurn("L", 720, 100);
+        ado.setTurn("L", 720, 100);
 
        
-        myFinch.stopAll();
-        myFinch.disconnect();
+        ado.stopAll();
+        ado.disconnect();
     }
 }
