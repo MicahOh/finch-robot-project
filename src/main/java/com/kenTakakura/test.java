@@ -23,6 +23,14 @@ public class test {
                     1, 0, 0, 0, 1};
         ado.setDisplay(aa);
         ado.pause(2.0);
+
+        ado.playNote(60, 0.5);
+        ado.playNote(61, 0.5);
+        ado.playNote(62, 0.5);
+        ado.playNote(63, 0.5);
+        ado.playNote(61, 1);
+        ado.playNote(59, 0.5);
+        ado.playNote(60, 0.5);
        
         ado.stopAll();
         ado.disconnect();
