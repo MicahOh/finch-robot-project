@@ -37,37 +37,91 @@ public class test {
         ado.playNote(95, 0.075);
         ado.pause(0.1);
 
-        int[] Arr = {0, 0, 0, 0, 0, 
+        int[] r = {0, 0, 0, 0, 0, 
                     0, 0, 0, 0, 0, 
                     0, 0, 0, 1, 0, 
                     1, 0, 0, 1, 0, 
                     0, 0, 0, 0, 0};
+        ado.setDisplay(r); 
+        ado.pause(0.1);            
 
-        int[] Arr = {0, 0, 0, 0, 0, 
+        int[] zanki = {0, 0, 0, 0, 0, 
                     0, 0, 0, 0, 0, 
                     0, 0, 0, 0, 0, 
                     1, 0, 1, 1, 0, 
                     0, 0, 0, 0, 0};
+       ado.setDisplay(zanki); 
+        ado.pause(0.1);
 
-        int[] Arr = {0, 0, 0, 0, 0, 
+        int[] heh = {0, 0, 0, 0, 0, 
                     0, 0, 0, 0, 0, 
                     0, 0, 0, 0, 0, 
                     1, 1, 1, 1, 0, 
                     0, 0, 0, 0, 0};
-        
+        ado.setDisplay(heh); 
+        ado.pause(0.1);
 
         //fruit
-
-        int[] Arr = {0, 0, 0, 0, 0, 
+        int[] gobble = {0, 0, 0, 0, 0, 
+                     0, 0, 0, 0, 1, 
                      0, 0, 0, 0, 0, 
-                     0, 0, 0, 1, 0, 
-                      1, 0, 0, 1, 0, 
-                       0, 0, 0, 0, 0};
+                     1, 1, 1, 0, 0, 
+                     0, 0, 0, 0, 0};
+       ado.setDisplay(gobble); 
+        ado.playNote(95, 0.075);
+        ado.pause(0.1);
         
         
 
+        int[] ob{0, 0, 0, 0, 0, 
+                    0, 0, 0, 0, 1, 
+                    1, 0, 0, 0, 0, 
+                    1, 1, 0, 0, 0, 
+                    0, 0, 0, 0, 0};
+        ado.setDisplay(ob);
+        ado.pause(0.1);
 
+        int[] heh = {0, 0, 0, 0, 0, 
+                    1, 0, 0, 0, 1, 
+                    1, 0, 0, 0, 0, 
+                    1, 0, 0, 0, 0, 
+                    0, 0, 0, 0, 0};
+        ado.setDisplay(heh); 
+        ado.pause(0.1);
 
+        int[] heh = {0, 0, 0, 0, 0, 
+                    1, 1, 0, 0, 1, 
+                    1, 0, 0, 0, 0, 
+                    0, 0, 0, 0, 0, 
+                    0, 0, 0, 0, 0};
+        ado.setDisplay(heh); 
+        ado.pause(0.1);
+
+        int[] heh = {0, 0, 0, 0, 0, 
+                    1, 1, 1, 0, 1, 
+                    0, 0, 0, 0, 0, 
+                    0, 0, 0, 0, 0, 
+                    0, 0, 0, 0, 0};
+        ado.setDisplay(heh); 
+        ado.pause(0.1);
+
+       int[] heh = {0, 0, 0, 0, 0, 
+                    0, 1, 1, 1, 1, 
+                    0, 0, 0, 0, 0, 
+                    0, 0, 0, 0, 0, 
+                    0, 0, 0, 0, 0};
+        ado.setDisplay(heh); 
+        ado.pause(0.1);
+
+        //fruit
+        int[] heh = {0, 0, 0, 0, 0, 
+                    0, 1, 1, 1, 1, 
+                    0, 0, 0, 0, 0, 
+                    0, 1, 0, 0, 0, 
+                    0, 0, 0, 0, 0};
+        ado.setDisplay(heh); 
+        ado.playNote(95, 0.075);
+        ado.pause(0.1);
 
 
 
